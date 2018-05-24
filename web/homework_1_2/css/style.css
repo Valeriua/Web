@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(220,187,154);
+}
+#content{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    width: 1200px;
+    padding: 25px;
+}
+h1  {
+    margin:1px;
+    text-align: center;
+}
+h1, h2 {
+    color: rgb(137,60,0);
+}
+.img-left {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 3px;
+    border:solid rgb(137,60,0);
+    float: left;
+}
+.img-right{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 3px;
+    border:solid rgb(137,60,0);
+    float: right;
+}
+.brief{
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    float: left;
+    padding:20px;
+    width: 425px;
+    height: 75px;
+    background-color: rgb(250,220,186);
+}
+caption{
+    text-align: right;
+}
+td{
+    font-weight: lighter;
+    border-bottom: solid 1px rgb(224,224,224);
+}
+th{
+    font-weight: lighter;
+    background-color: rgb(224,224,224);
+}
+th , td {
+    padding: 10px 20px;
+    padding-right: 85px;
+}
+#button{
+    font-weight: bolder;
+    color: rgb(61,112,161);
+    padding: 10px 65px;
+    background-color: white;
+    border: solid 1px rgb(61,112,161);
+}
+#button:hover{
+    color: white;
+    background-color: rgb(61,112,161);
+    transition: 0.3s;
+}
+form {
+    float:left;
+    color: rgb(128,128,128);
+}
+
+.lastname{
+    margin-left: 48px;
+}
+.firstname, .lastname , .email , .rate , .feedback {
+    resize: none;
+}
